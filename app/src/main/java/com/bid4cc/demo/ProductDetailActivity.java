@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -26,11 +28,15 @@ public class ProductDetailActivity extends AppCompatActivity {
     TextView title;
     @BindView(R.id.tv_downloadCat)
     TextView downloadCat;
+    @BindView(R.id.tv_description)
+    TextView tvDescription;
     @BindView(R.id.iv_notif_icon)
     ImageView ivNotifIcon;
     @BindView(R.id.iv_productImage)
     ImageView ivProductImage;
     private ProgressDialog pDialog;
+    private String description;
+    private String imageLink;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +48,12 @@ public class ProductDetailActivity extends AppCompatActivity {
         pDialog.setCancelable(false);
 
         title.setText(getIntent().getStringExtra("productName"));
+        description = getIntent().getStringExtra("description");
+        imageLink = getIntent().getStringExtra("imageLink");
+
+        Picasso.with(this).load(imageLink).into(ivProductImage);
+        tvDescription.setText(description);
+
         ivMenuIcon.setVisibility(View.VISIBLE);
         ivMenuIcon.setOnClickListener(new View.OnClickListener() {
             @Override

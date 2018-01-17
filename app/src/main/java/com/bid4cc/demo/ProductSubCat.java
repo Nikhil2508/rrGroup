@@ -71,7 +71,7 @@ public class ProductSubCat extends AppCompatActivity {
 
 
 
-        title.setText(titleCategory + " - Subcategories");
+        title.setText(titleCategory);
         ivMenuIcon.setVisibility(View.VISIBLE);
         ivMenuIcon.setOnClickListener(new View.OnClickListener() {
             @Override

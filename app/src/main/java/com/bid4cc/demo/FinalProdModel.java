@@ -6,5 +6,5 @@ package com.bid4cc.demo;
 
 public class FinalProdModel {
 
-    public String title, modelNumber;
+    public String title, modelNumber,smallImage, largeImage, description;
 }

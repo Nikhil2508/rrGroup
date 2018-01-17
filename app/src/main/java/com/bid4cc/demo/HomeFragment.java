@@ -138,16 +138,16 @@ public class HomeFragment extends Fragment {
 
     private void prepareAlbums() {
         int[] covers = new int[]{
-                R.drawable.ic_access_control,
-                R.drawable.ic_bio_rfid,
-                R.drawable.ic_cctv,
-                R.drawable.ic_cards,
-                R.drawable.ic_entrance_control,
-                R.drawable.ic_lock_accessory,
-                R.drawable.ic_smart_lock,
-                R.drawable.ic_softwares};
+                R.drawable.im_default_nav_profile,
+                R.drawable.im_default_nav_profile,
+                R.drawable.im_default_nav_profile,
+                R.drawable.im_default_nav_profile,
+                R.drawable.im_default_nav_profile,
+                R.drawable.im_default_nav_profile,
+                R.drawable.im_default_nav_profile,
+                R.drawable.im_default_nav_profile};
 
-        Album a = new Album("RR Kable", 13, covers[0]);
+        Album a = new Album("RR Kabel", 13, covers[0]);
         albumList.add(a);
 
         a = new Album("RR Electricals", 8, covers[1]);
