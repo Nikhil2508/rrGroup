@@ -1,0 +1,84 @@
+{
+  "Fans": [
+    {
+      "category":"Ceiling Fans"  
+    },
+    {
+      "category":"HVSL Fans"
+    },
+    {
+      "category":"Power Saver Fans"
+    },
+    {
+      "category":"Table Fans"
+    },
+    {
+      "category":"Wallmount Fans"
+    },
+    {
+      "category":"Pedestal Fans"
+    },
+    {
+      "category":"Industrial Fans"
+    }
+    
+  ],
+    "Home Appliances": [
+      {
+      "category":"Water Heaters"
+    },
+    {
+      "category":"Immersion Heaters"  
+    },
+    {
+      "category":"Electrical Iron"
+    }
+  ],
+    "Switches": [
+       {
+      "category":"Connect"
+    },
+    {
+      "category":"Whites"  
+    },
+    {
+      "category":"Popup Box"
+    }
+  ],
+    "Lighting": [
+      
+    {
+      "category":"HouseHold/Office"
+    },
+    {
+      "category":"Decorative"  
+    },
+    {
+      "category":"Industrial"
+    },
+    {
+      "category":"Pole Series"
+    },
+    {
+      "category":"Luminaire"
+    }
+  ],
+    "SwitchGear": [
+    {
+      "category":"HouseHold/Office"
+    },
+    {
+      "category":"Decorative"  
+    },
+    {
+      "category":"Industrial"
+    },
+    {
+      "category":"Pole Series"
+    },
+    {
+      "category":"Luminaire"
+    }
+  ]
+  
+}
